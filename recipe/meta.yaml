@@ -10,7 +10,7 @@ source:
   sha256: b962914d5814edab320d00c11ca396b70c4ce1e67db7a6d59c4b0a3772a16836
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -43,7 +43,7 @@ test:
 
 about:
   home: https://www.normaliz.uni-osnabrueck.de
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE.txt
   summary: 'This Python package provides a wrapper to the C++ Parma Polyhedra Library (PPL).'
